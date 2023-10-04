@@ -1,0 +1,96 @@
+const bis = document.querySelector(".biscuit");
+const btnBis = document.querySelector(".bisitem");
+btnBis.addEventListener("click", function () {
+  bis.classList.toggle("show");
+  con.classList.remove("show");
+  snack.classList.remove("show");
+  cake.classList.remove("show");
+  rusk.classList.remove("show");
+  plat.classList.remove("show");
+  atta.classList.remove("show");
+  cere.classList.remove("show");
+});
+const con = document.querySelector(".confectionery");
+const btnCon = document.querySelector(".confitem");
+btnCon.addEventListener("click", function () {
+  con.classList.toggle("show");
+  bis.classList.remove("show");
+  snack.classList.remove("show");
+  cake.classList.remove("show");
+  rusk.classList.remove("show");
+  plat.classList.remove("show");
+  atta.classList.remove("show");
+  cere.classList.remove("show");
+});
+const snack = document.querySelector(".snacks");
+const btnSnack = document.querySelector(".snackitem");
+btnSnack.addEventListener("click", function () {
+  snack.classList.toggle("show");
+  bis.classList.remove("show");
+  con.classList.remove("show");
+  cake.classList.remove("show");
+  rusk.classList.remove("show");
+  plat.classList.remove("show");
+  atta.classList.remove("show");
+  cere.classList.remove("show");
+});
+const cake = document.querySelector(".cake");
+const btnCake = document.querySelector(".cakeitem");
+btnCake.addEventListener("click", function () {
+  cake.classList.toggle("show");
+  bis.classList.remove("show");
+  con.classList.remove("show");
+  snack.classList.remove("show");
+  rusk.classList.remove("show");
+  plat.classList.remove("show");
+  atta.classList.remove("show");
+  cere.classList.remove("show");
+});
+const rusk = document.querySelector(".rusk");
+const btnRusk = document.querySelector(".ruskitem");
+btnRusk.addEventListener("click", function () {
+  rusk.classList.toggle("show");
+  bis.classList.remove("show");
+  con.classList.remove("show");
+  snack.classList.remove("show");
+  cake.classList.remove("show");
+  plat.classList.remove("show");
+  atta.classList.remove("show");
+  cere.classList.remove("show");
+});
+const plat = document.querySelector(".plat");
+const btnPlat = document.querySelector(".platinaitem");
+btnPlat.addEventListener("click", function () {
+  plat.classList.toggle("show");
+  bis.classList.remove("show");
+  con.classList.remove("show");
+  snack.classList.remove("show");
+  cake.classList.remove("show");
+  rusk.classList.remove("show");
+  atta.classList.remove("show");
+  cere.classList.remove("show");
+});
+const atta = document.querySelector(".atta");
+const btnAtta = document.querySelector(".attaitem");
+btnAtta.addEventListener("click", function () {
+  atta.classList.toggle("show");
+  bis.classList.remove("show");
+  con.classList.remove("show");
+  snack.classList.remove("show");
+  cake.classList.remove("show");
+  rusk.classList.remove("show");
+  plat.classList.remove("show");
+  cere.classList.remove("show");
+});
+const cere = document.querySelector(".cereals");
+const btnCere = document.querySelector(".cereitem");
+btnCere.addEventListener("click", function () {
+  cere.classList.toggle("show");
+  bis.classList.remove("show");
+  con.classList.remove("show");
+  snack.classList.remove("show");
+  cake.classList.remove("show");
+  rusk.classList.remove("show");
+  plat.classList.remove("show");
+  atta.classList.remove("show");
+});
